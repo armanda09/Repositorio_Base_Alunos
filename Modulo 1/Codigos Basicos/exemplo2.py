@@ -1,6 +1,4 @@
-peso = float(input("Digite o peso:"))
-altura = float(input("Digite a altura:"))
+metro= float(input("digite um metro"))
+centimentros= metro * 100
 
-multiplicacao = altura * altura
-divisao = peso / multiplicacao
-print("O valor da divisao é:", divisao)
+print(f"{metro}metros equivalem a{centimentros}centimetros")

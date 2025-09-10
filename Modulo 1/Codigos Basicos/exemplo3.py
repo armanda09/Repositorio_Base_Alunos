@@ -1,5 +1,4 @@
-valor_total = int(input("Digite o valor total: "))
-porcentagem = int(input("Digite o valor da porcentagem: "))
+raio=float(input("digite um raio de um circulo"))
+area=3.14 * raio**2
 
-valor_parte = valor_total * (porcentagem/100)
-print(valor_parte)
+print(f"area do circulo e: {area}")

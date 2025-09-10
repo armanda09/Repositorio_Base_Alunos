@@ -1,8 +1,7 @@
-nome = input("Digite um nome")
-nota1 = int(input("Digite a primeira nota"))
-nota2 = int(input("Digite a segumda nota"))
-nota3 = int(input("Digite a terceira nota"))
+aluno=input("digite um nome")
+numero1=int(input("digite um numero"))
+numero4=int(input("digite outro numero"))
+numero2=int(input("digite o ultimo numero"))
 
-soma = nota1 + nota2 + nota3
-dividir = soma / 3
-print("O valor da divisão é: ", dividir)
+media=(numero1+numero4+numero2)/3
+print (media)
